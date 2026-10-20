@@ -1,0 +1,37 @@
+
+/* ==========================================
+   CUSTOM TIMELINEJS COLORS
+   ========================================== */
+
+/* 1. Background of timeline navigation */
+.tl-timenav {
+  background-color: #AADAFF !important;
+}
+
+/* 2. Background of event labels */
+.tl-timemarker .tl-timemarker-content-container {
+  background-color: #C6EFD3 !important;
+}
+
+/* 3. Text inside event labels */
+.tl-timemarker .tl-timemarker-content-container
+.tl-timemarker-text h2.tl-headline {
+  color: #333333 !important;
+}
+
+/* 4. Selected event label */
+.tl-timemarker.tl-timemarker-active
+.tl-timemarker-content-container {
+  background-color: #C6EFD3 !important;
+}
+
+/* 5. Timeline date labels */
+.tl-timeaxis .tl-timeaxis-content-container
+.tl-timeaxis-major .tl-timeaxis-tick-text {
+  color: #333333 !important;
+}
+
+/* 6. Timeline event text */
+.tl-timemarker .tl-timemarker-text {
+  color: #333333 !important;
+}
